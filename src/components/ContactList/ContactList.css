@@ -1,0 +1,25 @@
+.contact-list {
+  background-color: rgba(87, 102, 237, 0.05);
+  border-radius: 8px;
+  padding: 40px;
+  margin-top: 60px;
+}
+.excerpt {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+.excerpt strong {
+  font-weight: 700;
+  color: #5766ed;
+}
+.list {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+@media (max-width: 1023px) {
+  .contact-list {
+    padding: 40px 20px;
+    margin-top: 40px;
+  }
+}

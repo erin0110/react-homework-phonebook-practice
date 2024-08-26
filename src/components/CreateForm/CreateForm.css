@@ -1,0 +1,28 @@
+.create-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0;
+}
+.create-form > div > label {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  color: #5766ed;
+  margin-bottom: 10px;
+}
+.create-form > div input {
+  display: block;
+  width: 100%;
+  height: var(--field-height);
+}
+.create-form button {
+  width: 100%;
+  height: var(--field-height);
+  font-weight: bold;
+  color: #fff;
+  background-color: #5766ed;
+  border-radius: 4px;
+}
+.create-form button:hover {
+  background-color: #6370eb;
+}

@@ -1,0 +1,49 @@
+.list-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0 12px;
+  border-bottom: 1px solid #ddd;
+  padding: 16px;
+}
+.list-item:last-child {
+  border-bottom: 0;
+}
+.list-item .avatar {
+  min-width: 52px;
+  flex: 0 0 52px;
+  overflow: hidden;
+  display: block;
+  width: 52px;
+  height: 52px;
+  background: #f5f5f5 url(../../assets/images/user-line.png) 50% 50% / 24px auto
+    no-repeat;
+  border-radius: 100%;
+}
+.list-item dl dt {
+  font-size: 18px;
+  font-weight: 600;
+}
+.list-item dl dd {
+  font-size: 15px;
+  padding-top: 6px;
+}
+@media (max-width: 1023px) {
+  .list-item {
+    gap: 0 8px;
+  }
+  .list-item .avatar {
+    min-width: 36px;
+    flex: 0 0 36px;
+    width: 36px;
+    height: 36px;
+    background-size: 18px auto;
+  }
+  .list-item dl dt {
+    font-size: 16px;
+  }
+  .list-item dl dd {
+    font-size: 13px;
+    padding-top: 4px;
+  }
+}
